@@ -15,7 +15,7 @@ C:/Users/Equipo/Unity/Juego con Principios SOLID
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53055
+57198
 Successfully changed project path to: C:/Users/Equipo/Unity/Juego con Principios SOLID
 C:/Users/Equipo/Unity/Juego con Principios SOLID
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Equipo/Unity/Juego con Principios SOLID
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14756] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 2857443443 [EditorId] 2857443443 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-REVCS9B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24088] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 3441398903 [EditorId] 3441398903 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-REVCS9B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14756] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 2857443443 [EditorId] 2857443443 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-REVCS9B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24088] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 3441398903 [EditorId] 3441398903 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-REVCS9B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 55.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.28f1 (232e59c3f087)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -67,42 +67,42 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.013838 seconds.
+Registered in 0.005413 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 221 ms
-Refreshing native plugins compatible for Editor in 54.64 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 2166 ms
+Refreshing native plugins compatible for Editor in 58.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.766 seconds
+- Completed reload, in  2.690 seconds
 Domain Reload Profiling:
-	ReloadAssembly (766ms)
+	ReloadAssembly (2690ms)
 		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (599ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (2545ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (84ms)
+			SetupTypeCache (83ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (453ms)
+			SetupLoadedEditorAssemblies (2401ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (294ms)
+				InitializePlatformSupportModulesInManaged (2238ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
+				RefreshPlugins (58ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadAttributes (68ms)
 				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -110,38 +110,38 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005119 seconds.
+Registered in 0.004139 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Equipo\Unity\Juego con Principios SOLID\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Equipo\Unity\Juego con Principios SOLID\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
+- Completed reload, in  0.884 seconds
 Domain Reload Profiling:
-	ReloadAssembly (804ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (885ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (622ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (700ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
+			SetupTypeCache (255ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (272ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (291ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (168ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (182ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -150,68 +150,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (46.7 KB). Loaded Objects now: 3572.
-Memory consumption went from 115.7 MB to 115.6 MB.
-Total: 2.694500 ms (FindLiveObjects: 0.269300 ms CreateObjectMapping: 0.080600 ms MarkObjects: 2.272100 ms  DeleteObjects: 0.071500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 172527.789180 seconds.
-  path: Assets/Models/Salmon.fbx
-  artifactKey: Guid(a9b2fe35a167c904693b59a94f5d74c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Salmon.fbx using Guid(a9b2fe35a167c904693b59a94f5d74c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cec7e2fd016e17c980b7f4844f3742') in 0.193848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002703 seconds.
-  path: Assets/Materials/Floor.mat
-  artifactKey: Guid(43f38029a9368894a9fb4dd19ce0bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Floor.mat using Guid(43f38029a9368894a9fb4dd19ce0bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4e762aa6fb9d63cb661f3765030a2b') in 0.081583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Materials/NPC2.mat
-  artifactKey: Guid(a93801f5d7c489a46a7054fbff986d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/NPC2.mat using Guid(a93801f5d7c489a46a7054fbff986d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babed7e39c3a6f676a2b69149dfd24c8') in 0.010528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Materials/NPC3.mat
-  artifactKey: Guid(843eb902266317d499ce401b78e6d590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/NPC3.mat using Guid(843eb902266317d499ce401b78e6d590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c026513922785fa8877d9d0c57fd9f') in 0.012606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Models/Door.fbx
-  artifactKey: Guid(9bc10361f1d04cb4fb6b3f4d3c80a80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Door.fbx using Guid(9bc10361f1d04cb4fb6b3f4d3c80a80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4f6500f45eef3427e3162e1e26a1df') in 0.077288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Images/Pantalla Final.jpg
-  artifactKey: Guid(c6ec91f4110c3d84c954cb1f189caa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Pantalla Final.jpg using Guid(c6ec91f4110c3d84c954cb1f189caa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d29b7af48d82d8194068b65598ce006') in 0.169416 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (21.9 KB). Loaded Objects now: 3621.
-Memory consumption went from 52.6 MB to 52.6 MB.
-Total: 2.889400 ms (FindLiveObjects: 0.218000 ms CreateObjectMapping: 0.147800 ms MarkObjects: 2.502800 ms  DeleteObjects: 0.020200 ms)
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.7 KB). Loaded Objects now: 3573.
+Memory consumption went from 115.7 MB to 115.7 MB.
+Total: 2.409000 ms (FindLiveObjects: 0.216000 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.027300 ms  DeleteObjects: 0.078600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -226,58 +171,330 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 876.800015 seconds.
-  path: Assets/Textures/DoorNormal.png
-  artifactKey: Guid(c3c5e92443f62454683ae57f342d870e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/DoorNormal.png using Guid(c3c5e92443f62454683ae57f342d870e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcd4beb6ba6bfcf128db94f77322367') in 0.029903 seconds 
+  Time since last request: 221995.533431 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/AgedDarkWood_WMShader.mat
+  artifactKey: Guid(8f3bde3c129d6984c87270a14da9efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/AgedDarkWood_WMShader.mat using Guid(8f3bde3c129d6984c87270a14da9efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78314e0b759030beeab75ca279c86d8c') in 0.466835 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Textures/NPC3.jpeg
-  artifactKey: Guid(22db4f901fa95814daba93d9d85698c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/NPC3.jpeg using Guid(22db4f901fa95814daba93d9d85698c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f974bd0069192be41608a07a7232563') in 0.010852 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/WaveSand_StandardShader.mat
+  artifactKey: Guid(38915b34fb784e641be19e619ced4763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/WaveSand_StandardShader.mat using Guid(38915b34fb784e641be19e619ced4763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555437702b142cccf8b12af4c29cf3fb') in 0.095685 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Textures/WallMetallic.png
-  artifactKey: Guid(b8376bd9b886c3a4898017221178aa12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/WallMetallic.png using Guid(b8376bd9b886c3a4898017221178aa12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bc45c1441c64fb113f8aa7cc47eb3b') in 0.008282 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/CoarseConcrete_WMShader.mat
+  artifactKey: Guid(015da0f3dbeb55f4c82fb3d0587dcca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/CoarseConcrete_WMShader.mat using Guid(015da0f3dbeb55f4c82fb3d0587dcca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2132a4242193d39ee1a98f2f9fd165dd') in 0.033765 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Textures/FloorNormal.tga
-  artifactKey: Guid(817358eba3aa2e34e9a0f73eb7850fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/FloorNormal.tga using Guid(817358eba3aa2e34e9a0f73eb7850fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09444696cb9a2befc34aa7f75834a1d2') in 0.013603 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/HexBricks_StandardShader.mat
+  artifactKey: Guid(97600ef42b0a88b47adc4932a228ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/HexBricks_StandardShader.mat using Guid(97600ef42b0a88b47adc4932a228ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc94b33c6df04b8ba906963f78ac1fe7') in 0.016463 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Textures/WallBasecolor.png
-  artifactKey: Guid(7b47dd74999412842acaaad05b27cc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/WallBasecolor.png using Guid(7b47dd74999412842acaaad05b27cc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c48721c1f4dd6f0698b8100e743747c') in 0.008492 seconds 
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/BasketWeaveBricks_StandardShader.mat
+  artifactKey: Guid(9a2c87bc6bc6e5b4aa96c1c4c5224aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/BasketWeaveBricks_StandardShader.mat using Guid(9a2c87bc6bc6e5b4aa96c1c4c5224aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefe6fda7b8a8744296605c99ea7f428') in 0.016244 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Textures/NPC2.jpeg
-  artifactKey: Guid(070ebdf951148bd448c91f7315814ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/NPC2.jpeg using Guid(070ebdf951148bd448c91f7315814ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ec0c0a1ef02e7a6ebea28299b399f1') in 0.006686 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/DryRockyDirt_WMShader.mat
+  artifactKey: Guid(1a0c4d18584a3f14087077d1dafa042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/DryRockyDirt_WMShader.mat using Guid(1a0c4d18584a3f14087077d1dafa042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2321ab33c6f5718e16b3284702160dbd') in 0.019882 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Textures/WallHeight.png
-  artifactKey: Guid(52d11069d5bdd7c44a61494040cf97dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/WallHeight.png using Guid(52d11069d5bdd7c44a61494040cf97dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d12c2cdd22fd575aedc1e47d7d8c599') in 0.008764 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/DesertCliffRock_StandardShader.mat
+  artifactKey: Guid(ee2cbd091ade78d4d9ae2b3d259bc86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/DesertCliffRock_StandardShader.mat using Guid(ee2cbd091ade78d4d9ae2b3d259bc86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f0d728f03fb2b744c7d9f496bea58d') in 0.014161 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Textures/Player.jpg
-  artifactKey: Guid(fa9b614f81e97454a84ae0e3c2cf0211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Player.jpg using Guid(fa9b614f81e97454a84ae0e3c2cf0211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065324ce1af21c184519568a2aa4150e') in 0.008986 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/SimpleRedBricks_StandardShader.mat
+  artifactKey: Guid(3f070b9b51e38424e9597fbb6f473e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/SimpleRedBricks_StandardShader.mat using Guid(3f070b9b51e38424e9597fbb6f473e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ffec441de17f2930e831cc2cd9333d') in 0.220375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/DryRockyDirt_StandardShader.mat
+  artifactKey: Guid(06d2d82c741d6b34692010a75df9b1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/DryRockyDirt_StandardShader.mat using Guid(06d2d82c741d6b34692010a75df9b1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fca6df1a1ccae4ea51bd2ddbdd9fb6') in 0.018021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/GrassGravel_StandardShader.mat
+  artifactKey: Guid(64154d5d80792f94f86e62d53e3aea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/GrassGravel_StandardShader.mat using Guid(64154d5d80792f94f86e62d53e3aea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd009502a103e372a7cf0f254f930ac') in 0.015605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/WavySand_WMShader.mat
+  artifactKey: Guid(fdb4ea3af6900bf46a224639828a821a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/WavySand_WMShader.mat using Guid(fdb4ea3af6900bf46a224639828a821a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0749a9f7b89b7534553ef7f649b1a2') in 0.025985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/BrushedIron_StandardShader.mat
+  artifactKey: Guid(9af34721d62dd804da5c720b8325b5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/BrushedIron_StandardShader.mat using Guid(9af34721d62dd804da5c720b8325b5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaed16d8b804fa1e6cd527cfdd55f6d5') in 0.240093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/RuinStoneBricks_WMShader.mat
+  artifactKey: Guid(258596a046ce9484b825867a99c21793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/RuinStoneBricks_WMShader.mat using Guid(258596a046ce9484b825867a99c21793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefe812b34fbf281f42cfc848c670035') in 0.018705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.287124 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/HexBricks/HexBricks_normal.png
+  artifactKey: Guid(d4f69a826c0a5234cb14cd32957f13b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/HexBricks/HexBricks_normal.png using Guid(d4f69a826c0a5234cb14cd32957f13b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37de1bdcb3db283f535928339ffcc840') in 0.018333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/HexBricks/HexBricks_height.png
+  artifactKey: Guid(c4aabfcb8fc834541a39eb5e5ec2a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/HexBricks/HexBricks_height.png using Guid(c4aabfcb8fc834541a39eb5e5ec2a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f283ef3250282681cc43afe6c83f39d') in 0.008768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.490930 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_smoothness.png
+  artifactKey: Guid(78e0f021c5e92c64d967315093e39104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_smoothness.png using Guid(78e0f021c5e92c64d967315093e39104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c666edc8f6b5aad78bdf0c456a1065ef') in 0.010691 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/Textures/WallRoughness.png
-  artifactKey: Guid(2adca281edbee6949a1e891805e79bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/WallRoughness.png using Guid(2adca281edbee6949a1e891805e79bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b234d7dc1c2ebbfa144f8b2cb8d760a') in 0.008801 seconds 
+  path: Assets/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_ao.png
+  artifactKey: Guid(74968bcc596691b4fab1a164c84c1d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_ao.png using Guid(74968bcc596691b4fab1a164c84c1d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db08ca0c874f6f6a2855fa8a4a319e9') in 0.008444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.610042 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/RuinStoneBricks/RuinStoneBricks_Smoothness.png
+  artifactKey: Guid(46b74052ab335af48a8ce3bbb08d216f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/RuinStoneBricks/RuinStoneBricks_Smoothness.png using Guid(46b74052ab335af48a8ce3bbb08d216f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7e6d6bfbfd565b8b660b21472261db') in 0.013273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/RuinStoneBricks/RuinStoneBricks_height.png
+  artifactKey: Guid(68230a5a72b27b34da2c8bdf279cea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/RuinStoneBricks/RuinStoneBricks_height.png using Guid(68230a5a72b27b34da2c8bdf279cea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6bb453bc095969be6ca1aa726446a6') in 0.008614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.485732 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/WavySand/WavySand_metallic.png
+  artifactKey: Guid(7a0e85a29815b734bb3082678d06853d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/WavySand/WavySand_metallic.png using Guid(7a0e85a29815b734bb3082678d06853d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e235cc749354a4666c3ab432db055873') in 0.008774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/WavySand/WavySand_smoothness.png
+  artifactKey: Guid(06e741348f141804faa9421cd9aa2c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/WavySand/WavySand_smoothness.png using Guid(06e741348f141804faa9421cd9aa2c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4357eb9f47fd9060313e371887386ab') in 0.008413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.740275 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/WoodenFlooring/WoodenFlooring_Smoothness.png
+  artifactKey: Guid(671ffec92ccdc454bb4a1962709fdcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/WoodenFlooring/WoodenFlooring_Smoothness.png using Guid(671ffec92ccdc454bb4a1962709fdcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c41aa6695d73833f4d11345076d887') in 0.009473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.689121 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/SimpleRedBricks/SimpleRedBricks_Smoothness.png
+  artifactKey: Guid(4034baf17b6feb1478ae557e38edd42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/SimpleRedBricks/SimpleRedBricks_Smoothness.png using Guid(4034baf17b6feb1478ae557e38edd42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868e9bf45ae74624a8ff52291f037601') in 0.008516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/SimpleRedBricks/SimpleRedBricks_AO.png
+  artifactKey: Guid(becacdba4f01e4140b81a2f0d330b994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/SimpleRedBricks/SimpleRedBricks_AO.png using Guid(becacdba4f01e4140b81a2f0d330b994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7022296e568707192536f0111967171a') in 0.007135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.013430 seconds.
+  path: Assets/WorldMaterialsFree/HDRPMaterials/BathroomTiles_HDRPShader.mat
+  artifactKey: Guid(5d9b515fee1e9d74d9b10c870f910131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/HDRPMaterials/BathroomTiles_HDRPShader.mat using Guid(5d9b515fee1e9d74d9b10c870f910131) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: 'e54e33fed3609e1da88511f33dc349d0') in 0.038114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/WorldMaterialsFree/HDRPMaterials/PlainWhiteFabric_HDRPShader.mat
+  artifactKey: Guid(7635169c9966205499da267fe152e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/HDRPMaterials/PlainWhiteFabric_HDRPShader.mat using Guid(7635169c9966205499da267fe152e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '964338d20800890f908b0f3a1d2dbbaa') in 0.026108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WorldMaterialsFree/HDRPMaterials/DesertSandBrick_HDRPShader.mat
+  artifactKey: Guid(d46f207188fc34b4ab36c570b327e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/HDRPMaterials/DesertSandBrick_HDRPShader.mat using Guid(d46f207188fc34b4ab36c570b327e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '9f3325d7d70203bbceb72e464ce0fd20') in 0.022240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/WorldMaterialsFree/HDRPMaterials/PebbledGravel_HDRPShader.mat
+  artifactKey: Guid(c65ac9b9b9747f9409198fc6dc539cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/HDRPMaterials/PebbledGravel_HDRPShader.mat using Guid(c65ac9b9b9747f9409198fc6dc539cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '250ffd1ccb0b4a36ad15476cd2267df8') in 0.018545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/WorldMaterialsFree/HDRPMaterials/WavySand_HDRPShader.mat
+  artifactKey: Guid(2c17f54b0b03f5d43a3fbd60cf7fdd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/HDRPMaterials/WavySand_HDRPShader.mat using Guid(2c17f54b0b03f5d43a3fbd60cf7fdd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '15c593a0d47dc81393264f759c895247') in 0.028630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/WorldMaterialsFree/HDRPMaterials/HexBricks_HDRPShader.mat
+  artifactKey: Guid(d42b07e2f4723cb478482ae2c25091a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/HDRPMaterials/HexBricks_HDRPShader.mat using Guid(d42b07e2f4723cb478482ae2c25091a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '92fbb37cc62bfaae68a1554f12f97bd4') in 0.022365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/WorldMaterialsFree/HDRPMaterials/SimpleRedBricks_HDRPShader.mat
+  artifactKey: Guid(c6d8285a1bf03fd43a1debc9db76ec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/HDRPMaterials/SimpleRedBricks_HDRPShader.mat using Guid(c6d8285a1bf03fd43a1debc9db76ec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '9344c9eaa8d5aacee01edc7ad1e5f9f9') in 0.025770 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
