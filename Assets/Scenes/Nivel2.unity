@@ -42143,8 +42143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b932a96a1bfb564aa41b322c32d094d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidas: 3
-  salmon: 0
+  salmon: 20
 --- !u!114 &3444579469936776250
 MonoBehaviour:
   m_ObjectHideFlags: 0
