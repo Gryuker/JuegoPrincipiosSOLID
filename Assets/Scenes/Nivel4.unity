@@ -26440,8 +26440,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1750822570}
   - {fileID: 8790652002503730101}
+  - {fileID: 1750822570}
   - {fileID: 8790652001963367150}
   - {fileID: 1095016849}
   m_Father: {fileID: 0}
@@ -36607,7 +36607,7 @@ GameObject:
   - component: {fileID: 1466128458}
   - component: {fileID: 1466128457}
   - component: {fileID: 1466128456}
-  - component: {fileID: 1466128455}
+  - component: {fileID: 1466128459}
   - component: {fileID: 1466128454}
   m_Layer: 0
   m_Name: NPC (4)
@@ -36641,8 +36641,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -36727,22 +36727,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1466128455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466128452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sonido: {fileID: 1466128454}
-  npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
-  door: {fileID: 8790652001963617908}
-  npcType: 2
 --- !u!136 &1466128456
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -36807,6 +36791,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1466128452}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1466128459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466128452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2158d561ec87fd49a94480306defe8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonido: {fileID: 1466128454}
+  npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  player: {fileID: 0}
 --- !u!1001 &1466157858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41023,7 +41022,7 @@ GameObject:
   - component: {fileID: 1657003356}
   - component: {fileID: 1657003355}
   - component: {fileID: 1657003354}
-  - component: {fileID: 1657003353}
+  - component: {fileID: 1657003357}
   - component: {fileID: 1657003352}
   m_Layer: 0
   m_Name: NPC (3)
@@ -41057,8 +41056,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -41143,22 +41142,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1657003353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657003350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sonido: {fileID: 1657003352}
-  npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
-  door: {fileID: 1095016848}
-  npcType: 1
 --- !u!136 &1657003354
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -41223,6 +41206,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657003350}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1657003357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657003350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00134839d0767534e89ebeaab5c61f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonido: {fileID: 1657003352}
+  npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  player: {fileID: 0}
+  door: {fileID: 1095016848}
 --- !u!4 &1659503547 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 66145212726720187, guid: 1714a08017b8f5846b57c16d37b11190, type: 3}
@@ -43715,7 +43714,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1070593578}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1751063088
 GameObject:
@@ -43730,7 +43729,7 @@ GameObject:
   - component: {fileID: 1753124294}
   - component: {fileID: 438977264}
   m_Layer: 0
-  m_Name: Door
+  m_Name: Door (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53927,8 +53926,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -54022,13 +54021,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 397223108341711935}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
+  m_Script: {fileID: 11500000, guid: 00134839d0767534e89ebeaab5c61f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sonido: {fileID: 397223108341711936}
   npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  player: {fileID: 0}
   door: {fileID: 8790652001963617908}
-  npcType: 1
 --- !u!1 &3444579469936776130
 GameObject:
   m_ObjectHideFlags: 0
@@ -54044,6 +54043,7 @@ GameObject:
   - component: {fileID: 3444579469936776131}
   - component: {fileID: 3444579469936776249}
   - component: {fileID: 3444579469936776250}
+  - component: {fileID: 3444579469936776251}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -54159,7 +54159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b932a96a1bfb564aa41b322c32d094d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidas: 3
   salmon: 0
 --- !u!114 &3444579469936776250
 MonoBehaviour:
@@ -54173,6 +54172,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01fa9f8c4ddcb64ba64056fe450943e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  input: {fileID: 0}
+--- !u!114 &3444579469936776251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3444579469936776130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 056af083ef89d7e49ac161c08237fa4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yAxis: 0
+  xAxis: 0
+  moveX: 0
+  moveZ: 0
 --- !u!1 &3444579471509253449
 GameObject:
   m_ObjectHideFlags: 0
@@ -54464,8 +54480,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -54559,13 +54575,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3675952733823076712}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
+  m_Script: {fileID: 11500000, guid: 00134839d0767534e89ebeaab5c61f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sonido: {fileID: 3675952733823076720}
+  sonido: {fileID: 3719765538336512688}
   npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  player: {fileID: 0}
   door: {fileID: 1751063088}
-  npcType: 1
 --- !u!23 &3719765538336512672
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -54676,8 +54692,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -54771,13 +54787,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3719765538336512676}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
+  m_Script: {fileID: 11500000, guid: 00134839d0767534e89ebeaab5c61f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sonido: {fileID: 3719765538336512688}
   npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  player: {fileID: 0}
   door: {fileID: 8790652002503481135}
-  npcType: 1
 --- !u!1001 &3866294830191840048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55373,7 +55389,7 @@ GameObject:
   - component: {fileID: 8790652002505474265}
   - component: {fileID: 8790652001193988079}
   m_Layer: 0
-  m_Name: Door (1)
+  m_Name: 'Door '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55392,7 +55408,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1070593578}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &8790652002505474265
 MeshRenderer:

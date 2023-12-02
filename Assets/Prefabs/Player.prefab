@@ -196,6 +196,7 @@ GameObject:
   - component: {fileID: 2333528039431142702}
   - component: {fileID: 2333528039431142100}
   - component: {fileID: 2558876661870670106}
+  - component: {fileID: 7459044802044139523}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -311,7 +312,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b932a96a1bfb564aa41b322c32d094d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidas: 3
   salmon: 0
 --- !u!114 &2558876661870670106
 MonoBehaviour:
@@ -325,3 +325,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01fa9f8c4ddcb64ba64056fe450943e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  input: {fileID: 0}
+--- !u!114 &7459044802044139523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2333528039431142703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 056af083ef89d7e49ac161c08237fa4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yAxis: 0
+  xAxis: 0
+  moveX: 0
+  moveZ: 0
