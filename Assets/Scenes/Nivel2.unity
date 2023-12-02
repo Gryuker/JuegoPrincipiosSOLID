@@ -41911,8 +41911,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -42006,13 +42006,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 397223108341711935}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
+  m_Script: {fileID: 11500000, guid: c2158d561ec87fd49a94480306defe8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sonido: {fileID: 397223108341711936}
   npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
-  door: {fileID: 0}
-  npcType: 2
+  player: {fileID: 0}
 --- !u!1 &3444579469936776130
 GameObject:
   m_ObjectHideFlags: 0
@@ -42028,6 +42027,7 @@ GameObject:
   - component: {fileID: 3444579469936776131}
   - component: {fileID: 3444579469936776249}
   - component: {fileID: 3444579469936776250}
+  - component: {fileID: 3444579469936776251}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -42156,6 +42156,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01fa9f8c4ddcb64ba64056fe450943e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  input: {fileID: 0}
+--- !u!114 &3444579469936776251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3444579469936776130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 056af083ef89d7e49ac161c08237fa4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yAxis: 0
+  xAxis: 0
+  moveX: 0
+  moveZ: 0
 --- !u!1 &3444579471509253449
 GameObject:
   m_ObjectHideFlags: 0
@@ -42447,8 +42464,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -42542,13 +42559,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3675952733823076712}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
+  m_Script: {fileID: 11500000, guid: 00134839d0767534e89ebeaab5c61f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sonido: {fileID: 3675952733823076720}
   npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  player: {fileID: 0}
   door: {fileID: 1751063088}
-  npcType: 1
 --- !u!23 &3719765538336512672
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42659,8 +42676,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -42754,13 +42771,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3719765538336512676}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
+  m_Script: {fileID: 11500000, guid: 00134839d0767534e89ebeaab5c61f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sonido: {fileID: 3719765538336512688}
   npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  player: {fileID: 0}
   door: {fileID: 8790652001963617908}
-  npcType: 1
 --- !u!1001 &3866294830191840048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43343,8 +43360,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -43438,13 +43455,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7834209018567184770}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
+  m_Script: {fileID: 11500000, guid: 00134839d0767534e89ebeaab5c61f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sonido: {fileID: 7834209018567184778}
   npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  player: {fileID: 0}
   door: {fileID: 8790652002503481135}
-  npcType: 1
 --- !u!65 &8790652001193988079
 BoxCollider:
   m_ObjectHideFlags: 0
